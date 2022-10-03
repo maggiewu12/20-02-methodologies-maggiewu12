@@ -37,8 +37,8 @@ public class Runner {
 		int quadC = keyboard.nextInt();
 
 
-		System.out.println( Methodologies.getRootAdd( quadA,quadB,quadC ) );
-		System.out.println( Methodologies.getRootSub( quadA,quadB,quadC ) );
+		out.println("Quadratic answer one: " + Methodologies.getRootAdd( quadA,quadB,quadC ) );
+		out.println("Quadratic answer two " + Methodologies.getRootSub( quadA,quadB,quadC ) );
 
 
 
