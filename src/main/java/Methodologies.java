@@ -4,7 +4,7 @@ public class Methodologies {
 
     public static double howFar(int xOne, int yOne, int xTwo, int yTwo )
     {
-        return Math.sqrt(Math.pow(xTwo - xOne, 2) + Math.pow(yTwo - yOne, 2));
+        return (int)(Math.sqrt(Math.pow(xTwo - xOne, 2) + Math.pow(yTwo - yOne, 2)));
     }
 
     public static double howFast( int distanceInMiles, int hours, int minutes )
@@ -19,7 +19,7 @@ public class Methodologies {
 
     public static double getRootSub( int a, int b, int c )
     {
-        return (int)(((-b) - Math.sqrt((Math.pow(b, 2)-(4*a*c))))/(2*a));
+        return (((-b) - Math.sqrt((Math.pow(b, 2)-(4*a*c))))/(2*a));
     }
 
 }//end of class
