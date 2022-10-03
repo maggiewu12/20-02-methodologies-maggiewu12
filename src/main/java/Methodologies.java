@@ -4,12 +4,12 @@ public class Methodologies {
 
     public static double howFar(int xOne, int yOne, int xTwo, int yTwo )
     {
-        return (int)(Math.sqrt(Math.pow(xTwo - xOne, 2) + Math.pow(yTwo - yOne, 2)));
+        return (Math.sqrt(Math.pow(xTwo - xOne, 2) + Math.pow(yTwo - yOne, 2)));
     }
 
     public static double howFast( int distanceInMiles, int hours, int minutes )
     {
-        return distanceInMiles/(hours + ((float)minutes/60f));
+        return (int)(distanceInMiles/(hours + ((float)minutes/60f)));
     }
 
     public static double getRootAdd( int a, int b, int c )
