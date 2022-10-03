@@ -19,7 +19,7 @@ public class Methodologies {
 
     public static double getRootSub( int a, int b, int c )
     {
-        return ((-b) - Math.sqrt((Math.pow(b, 2)-(4*a*c))))/(2*a);
+        return (int)(((-b) - Math.sqrt((Math.pow(b, 2)-(4*a*c))))/(2*a));
     }
 
 }//end of class
