@@ -9,7 +9,7 @@ public class Methodologies {
 
     public static double howFast( int distanceInMiles, int hours, int minutes )
     {
-        return (float)distanceInMiles/((float)hours + ((double)minutes/60));
+        return (float)distanceInMiles/((float)hours + ((double)minutes/60f));
     }
 
     public static double getRootAdd( int a, int b, int c )
